@@ -1,0 +1,12 @@
+User-Agent: *
+Disallow: /img/img-service-01.jpg
+Disallow: /img/img-service-02.jpg
+Disallow: /img/img-service-03.jpg
+Disallow: /img/img-service-04.jpg
+Disallow: /img/img-service-05.jpg
+Disallow: /img/img-service-06.jpg
+Disallow: /img/logo.png
+
+Crawl-delay: 30
+
+Sitemap: http://socoyolga.com/sitemap.xml

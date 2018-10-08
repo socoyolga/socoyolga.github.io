@@ -1,0 +1,670 @@
+/*------------------------------------------------------------------------------
+    Generales
+------------------------------------------------------------------------------*/
+body {
+    font-family: 'Lato',sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    width: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+a,input,select,textarea {
+    vertical-align: top;
+    outline: none !important;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+}
+
+textarea {
+    resize: none;
+}
+
+img {
+    outline: 0;
+    vertical-align: top;
+    border: 0;
+    max-width: 100.1%;
+    height: auto;
+}
+
+a {
+    color: #505050;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+}
+
+a:hover {
+    color: #74154e;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ol {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+p {
+    margin: 0 0 20px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin-top: 0;
+    font-family: 'Lato',sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #505050;
+}
+
+h1 {
+  font-family: 'Amatic SC',cursive;
+  font-weight: 400;
+  font-size: 40px;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+h2 {
+/* Prueba de fuente */
+    font-family: 'Amatic SC',cursive;
+    font-weight: 400;
+    font-size: 40px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+h3 {
+    margin: 0 0 15px;
+    line-height: 23px;
+    font-size: 17px;
+}
+
+h4 {
+    margin: 0 0 15px;
+    line-height: 20px;
+    font-size: 16px;
+}
+
+h5 {
+    line-height: 20px;
+    font-size: 15px;
+}
+
+h6 {
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.space_grey {
+    width: 100%;
+    padding: 30px;
+    background: #eee;
+    border-bottom: 3px double #aaa;
+}
+
+.space_grey .fa {
+    position: absolute;
+    left: 50%;
+    padding-top: 20px;
+    font-size: 1.5em;
+}
+
+.space_white {
+    width: 100%;
+    padding: 30px;
+    background: #fff;
+    border-bottom: 3px double #aaa;
+}
+
+.space_white .fa {
+    position: absolute;
+    left: 50%;
+    padding-top: 20px;
+    font-size: 1.5em;
+}
+
+.title {
+    font-family: 'Amatic SC',cursive;
+    font-weight: 400;
+    font-size: 40px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.title h2 {
+    display:inline
+}
+
+/*------------------------------------------------------------------------------
+    //Generales
+------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------
+    Header
+------------------------------------------------------------------------------*/
+#logo img {
+    width: 230px;
+}
+
+#main-header {
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 100;
+    border-bottom: 3px solid #74154e;
+    box-shadow: 0 2px 0 rgba(0,0,0,0.09);
+}
+
+.navbar-collapse {
+    float: none;
+    padding-right: 0;
+    padding-left: 0;
+    border: 0;
+    box-shadow: none;
+}
+
+#main-menu {
+    float: none;
+}
+
+#main-menu > li {
+    float: none;
+    display: inline-block;
+    margin: 0 0 0 -3px;
+    text-align: center;
+}
+
+#main-menu > li > a {
+    display: block;
+    margin: 0;
+    padding: 27px 30px 15px;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 13px;
+    color: #505050;
+    text-shadow: none;
+    border: 0;
+}
+
+#main-menu > li:hover a,#main-menu > li a:focus,#main-menu > li.active a {
+    background: #74154e;
+    color: #fff;
+}
+
+/*------------------------------------------------------------------------------
+    //Header
+------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------
+    Home
+------------------------------------------------------------------------------*/
+.home-section {
+    width: 100%;
+    text-align: center;
+    background: #eee;
+}
+
+.home-section h2 {
+    text-align: center;
+}
+
+#home-col {
+    padding-top: 20px;
+}
+
+#home-col img {
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+    width: auto;
+}
+
+span.color_letter {
+    color: #74154e;
+}
+
+
+/*------------------------------------------------------------------------------
+    //Home
+------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------
+    Services
+------------------------------------------------------------------------------*/
+.services-section {
+    width: 100%;
+    text-align: center;
+    background: #fff;
+}
+
+.space {
+    width: 100%;
+    padding: 30px;
+    background: #eee;
+}
+
+.services-section h4 {
+    color: #fff;
+}
+
+.Center-Container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.Center-Container.is-Table {
+    display: table;
+}
+
+.is-Table .Table-Cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.is-Table .Center-Block {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.service-item {
+    width: 100%;
+    background-color: #f9f9f9;
+    display: block;
+    float: left;
+    margin-bottom: 2px;
+}
+
+.service-item .wrap-image {
+    width: 66%;
+    float: left;
+}
+
+.service-item .wrap-image .service {
+    width: 33%;
+    min-height: 350px;
+    height: 350px;
+    background: rgba(0,0,0,0.8);
+    color: #fff;
+}
+
+.service-item .table-prices {
+    width: 34%;
+    float: left;
+    padding: 10px 20px;
+}
+
+.service-item .table-prices td {
+    font-family: 'Raleway',sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #666;
+    padding: 5px;
+}
+
+.service-item .table-prices tr:nth-child(1) td {
+    border-top: none;
+}
+
+.service-item .table-prices td:nth-child(1) {
+    text-align: left;
+    width: 85%;
+}
+
+.service-item .table-prices td:nth-child(2) {
+    width: 15%;
+}
+
+.service-item .table-prices p {
+    font-size: 12px;
+    text-align: left;
+}
+
+.service-item:nth-child(even) .wrap-image .service {
+    float: right;
+}
+
+#service-1 .wrap-image {
+    background: url(../img/img-service-01.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+#service-2 .wrap-image {
+    background: url(../img/img-service-02.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+#service-3 .wrap-image {
+    background: url(../img/img-service-03.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+#service-4 .wrap-image {
+    background: url(../img/img-service-04.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+#service-5 .wrap-image {
+    background: url(../img/img-service-05.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+#service-6 .wrap-image {
+    background: url(../img/img-service-06.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+/*------------------------------------------------------------------------------
+    //Services
+------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------
+    Salon
+------------------------------------------------------------------------------*/
+.salon-section {
+    width: 100%;
+    text-align: center;
+    background: #eee;
+}
+
+/*------------------------------------------------------------------------------
+    //Salon
+------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------
+    Hours
+------------------------------------------------------------------------------*/
+.hours-section {
+    width: 100%;
+    text-align: center;
+    background: #fff;
+    position: relative;
+}
+
+.hours-section ul {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+.hours-section ul li {
+    display: inline-table;
+    width: 110px;
+    height: 110px;
+    border-radius: 110px;
+    background: #74154e;
+    line-height: 110px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.hours-section ul li .day {
+    position: absolute;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 700;
+    top: 15px;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    line-height: 14px;
+    font-size: 16px;
+}
+
+.hours-section ul li.closed {
+    background: #ccc;
+}
+
+.hours-section ul li.different {
+    background: #666;
+}
+
+/*------------------------------------------------------------------------------
+    //Hours
+------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------
+    Contact
+------------------------------------------------------------------------------*/
+.contact-section {
+    line-height: 20px;
+    font-size: 14px;
+    color: #555;
+    background: #eee;
+    padding-bottom: 20px;
+}
+
+.contact-section h2 {
+    text-align: center;
+}
+
+.contact-section h4 {
+    text-align: left;
+}
+
+#row-contact {
+    border-bottom: 1px solid rgba(67,67,67,0.2);
+}
+
+#widget_contact > ul {
+    margin-bottom: 16px;
+    padding-bottom: 9px;
+}
+
+#widget_contact > ul > li {
+    position: relative;
+    padding-top: 5px;
+}
+
+#widget_contact > li > i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 16px;
+}
+
+#widget_contact > li > span {
+    color: #838383 !important;
+}
+
+
+#social {
+    padding-top: 20px;
+    text-align: center;
+}
+
+#social > a {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin: 0 20px 0 0;
+    text-align: center;
+    line-height: 24px;
+    font-size: 25px;
+    color: #555;
+    text-decoration: none;
+}
+
+#social > a:hover {
+    color: #74154e;
+}
+
+#map {
+    width: 100%;
+    height: 250px;
+    border: 0;
+    margin: 0;
+    text-align:center;
+}
+
+
+
+/*------------------------------------------------------------------------------
+    //Contact
+------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------
+    Footer
+------------------------------------------------------------------------------*/
+footer {
+    padding: 15px 30px 16px;
+    color: #f2f1e6;
+    background-color: #454545;
+    text-align: center;
+}
+
+footer span {
+    color: #f2f1e6;
+}
+
+.copyright_logo,.copyright_logo:focus {
+    color: #f2f1e6;
+}
+
+/*------------------------------------------------------------------------------
+    //Footer
+------------------------------------------------------------------------------*/
+/* _________ Resposive _________ */
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 480px) {
+#logo {
+    margin-left: 5px;
+}
+
+.navbar-toggle:hover span {
+    color: #74154e;
+}
+
+#main-menu {
+    float: none;
+    text-align: left;
+    margin: 0 0 20px;
+}
+
+#main-menu > li {
+    width: 100% !important;
+    margin-left: 20px;
+    padding-bottom: 5px;
+    text-align: left;
+    border: 0;
+}
+
+#main-menu > li:before {
+    display: none;
+}
+
+#main-menu > li > a {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    border: 0;
+}
+
+#main-menu > li:hover > a,#main-menu > li > a:focus,#main-menu > li.active > a {
+    background: none !important;
+    color: #74154e;
+}
+
+#main-menu > li > a:before, #main-menu > li > a:after {
+    display: none;
+}
+
+.service-item .wrap-image .service h4 {
+    font-size: 24px;
+}
+}
+
+@media (max-width: 767px) {
+#logo {
+    margin-left: 5px;
+}
+
+.navbar-toggle:hover span {
+    color: #74154e;
+}
+
+#main-menu {
+    float: none;
+    text-align: left;
+    margin: 0 0 20px;
+}
+
+#main-menu > li {
+    width: 100% !important;
+    margin-left: 20px;
+    padding-bottom: 5px;
+    text-align: left;
+    border: 0;
+}
+
+#main-menu > li:before {
+    display: none;
+}
+
+#main-menu > li > a {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    border: 0;
+}
+
+#main-menu > li:hover > a,#main-menu > li > a:focus,#main-menu > li.active > a {
+    background: none !important;
+    color: #74154e;
+}
+
+#main-menu > li > a:before,#main-menu > li > a:after {
+    display: none;
+}
+
+.service-item .wrap-image {
+    width: 100%;
+}
+
+.service-item .wrap-image .service {
+    width: 50%;
+}
+
+.service-item .table-prices {
+    width: 100%;
+}
+
+.service-item .wrap-image .service h4 {
+    font-size: 18px;
+}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 768px) and (max-width: 1199px) {
+#logo {
+    width: 220px;
+    margin-left: 5px;
+}
+
+#main-menu > li >a {
+    font-size: 10px;
+    padding: 27px 25px 13px;
+}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
+/* _________ //Resposive _________ */
