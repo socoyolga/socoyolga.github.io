@@ -36,6 +36,7 @@
                     return;
                 }
             }
+
             $('.flexslider').flexslider({
                 animation: "slide",
                 slideshowSpeed: 5000,
@@ -43,6 +44,9 @@
                     $('body').removeClass('loading');
                 }
             });
+
+            // Load twitter widgets
+            $.getScript("https://platform.twitter.com/widgets.js");
         }
 
 
