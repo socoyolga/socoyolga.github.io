@@ -59,6 +59,7 @@
                 if (mq.matches) {
                     new WOW().init();
                 }
+                $('#noticeModal').modal('show');
             });
 
             //jQuery for page scrolling feature - requires jQuery Easing plugin
