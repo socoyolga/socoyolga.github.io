@@ -47,6 +47,8 @@
 
             // Load twitter widgets
             $.getScript("https://platform.twitter.com/widgets.js");
+               
+            $('#noticeModal').modal('show');
         }
 
 
@@ -58,9 +60,7 @@
                 var mq = window.matchMedia("(min-width: 990px)");
                 if (mq.matches) {
                     new WOW().init();
-                }
-                
-                $('#noticeModal').modal('show');
+                }                
             });
 
             //jQuery for page scrolling feature - requires jQuery Easing plugin
