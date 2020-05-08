@@ -53,16 +53,14 @@
         // The DOM is ready
         $(function () {
             includeHTML();
-            
-            $(document).ready(function(){
-                $('#noticeModal').modal('show');
-            });
 
             $(document).ready(function() {
                 var mq = window.matchMedia("(min-width: 990px)");
                 if (mq.matches) {
                     new WOW().init();
                 }
+                
+                $('#noticeModal').modal('show');
             });
 
             //jQuery for page scrolling feature - requires jQuery Easing plugin
