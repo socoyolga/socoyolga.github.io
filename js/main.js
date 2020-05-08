@@ -54,7 +54,7 @@
         $(function () {
             includeHTML();
             
-            $(window).on('load',function(){
+            $(document).ready(function(){
                 $('#noticeModal').modal('show');
             });
 
