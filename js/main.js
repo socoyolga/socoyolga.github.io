@@ -48,7 +48,7 @@
             // Load twitter widgets
             $.getScript("https://platform.twitter.com/widgets.js");
                
-            $('#noticeModal').modal('show');
+            // $('#noticeModal').modal('show');
         }
 
 
