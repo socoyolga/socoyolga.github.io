@@ -9,4 +9,4 @@ Disallow: /img/logo.png
 
 Crawl-delay: 30
 
-Sitemap: http://socoyolga.com/sitemap.xml
+Sitemap: http://socoyolga.es/sitemap.xml
